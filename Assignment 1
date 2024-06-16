@@ -1,0 +1,108 @@
+<h3>Assignment 1.Basic HTML Structure</h3>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Devika p</title>
+    </head>
+    <body>
+        <h1> Devika Phulekar
+        </h1>
+        <p>My name is Devika i am from Bidar i had completed my graduation from Gulbarga University.
+            now currently i am studing My MCA in AGCMS Benglore.I am self motivated, deticated, focused person my short term 
+            goal is to get a job in reputed company</p>
+            <ul> 
+                <li>Cricket</li>
+                <li>Reading Books</li>
+                <li>cooking</li>
+                </ul>
+            <a>https://www.google.com/search?q=canva&sca_esv=d721955a60ea707d&sca_upv=1&rlz=1C1CHBF_enIN1071IN1071&sxsrf=ADLYWIKdlOh3bVhzttfbLCYwukAVOEZgaA
+            </a>
+            <h3>Assignment 2.HTML Forms</h3><br>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+               </form>
+               <label for="email"> Enter your email:</label>
+               <input type=""email" id="email" name="email">
+               <label for="pwd">password:</label>
+               <input type="password" id="pwd" name="pwd"><br>
+               <input type="checkbox"id="College code" name="College name" value="BSc">
+               <label for="College name"> I am studying BSC</label><br>
+               <input type="checkbox"id="College Code" name="College name" value="MCA">
+               <label for="College name"> I am studying MCA</label><br><br>
+               <input type="submit" value="submit"><br>
+            
+               
+            
+            <h3>Assignment 3.HTML Tables</h3><br>
+            <label for="week">select a week:</label>
+         <input type="week" id="week" name="week">
+         <label for="time slots">select a time slots:</label>
+         <input type="time slots" id="time slots" name="time slots">
+         <label for="data cells">select a data cells:</label>
+         <input type="data cells" id="data cells" name="data cells">
+
+         <h3>Assignment 4.HTML images and Links </h3><br>
+         <img src=data:image/jpeg;base64,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><br>
+         <imgcaption>"Once we decide we have to do something, we can go miles ahead"</imgcaption>
+
+         <h3>Assignment 5.Nested Lists</h3><br>
+         <ol>
+             <li>Galipata
+             <ul>
+                 <li>2008</li>
+                 <li>Ganesh</li>
+                 <li>Friends,etertainment and Romantic Movie</li>
+             </ul>
+             <li>Shiddat</li>
+             <ul>
+                 <li>2021</li>
+                 <li>vivek koushil</li>
+                 <li>about true love</li>
+             </ul>
+             <li>Rajahulli</li>
+             <ul>
+                 <li>2016</li>
+                 <li>Yesh</li>
+                 <li>about friends</li>
+             </ul>
+         </ol>
+
+         <h3>Assignment 6.Semantic HTML</h3>
+         <article>
+             <header>
+               <h1>What Does Skolar</h1>
+               <p>Skolar mission:</p>
+             </header>
+             <p>It is a IT sector and they are provding training and intership to students to get settled</p>
+           </article>
+            
+           <nav>
+             <a href="/agcms/">AGCMS</a> |
+             <a href="/kres/">KRE's</a> |
+           </nav>
+           <article>
+             <h2>Instagram</h2>
+             <p>Instagram is one the most trending social media.it was launched in the year 2010 in the month of october.</p>
+             </article>
+             <article>
+                 <h2>Akash group of institute</h2>
+                 <p>Akash group of institute is a eductional institute.where it is running all the courses from past 10 yrs.it is located in bengluru.</p>
+             </article>
+              
+         <aside>
+         <h4>Epcot Center</h4>
+         <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+         </aside>
+         <footer>
+             <p>Author: Hege Refsnes</p>
+             <p><a href="https://www.gutenberg.org/ebooks/100.epub.images">shakesphere@example.com</a></p>
+           </footer>
+             </body>
+         </html>
+         
+         
+         
+         
