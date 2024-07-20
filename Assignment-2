@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Institute</title>
+        <link rel="stylesheet" href="loginform.css">
+        <p>Akash Group Of Institute located in Banglore near Kempegowda International Airport.
+            It is one most leading top college in the banglore north.It is founded in the year 2014.
+            The Chairman of this institute was Sri Muniraju Gowda And Vice Chairman Amar gowda.
+            In this there many branches are there.
+     </p>
+       <h2>Courses</h2>
+
+       <li>BCOM</li>
+       <li>MCA</li>
+       <li>MBA</li>
+       <li>BCA</li>
+       <li>BBA</li>
+       <li>Bsc Nursing</li>
+       <li>Engineering</li>
+       <li>Akash institute of medical Science & Research centre</li>
+
+       <h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+</head>
+</html>
+body {
+    background-color:rgb(120, 32, 178);
+    }
+
+    h2{
+        font-size: 800;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-decoration-line: underlines;
+        padding-inline-start: 20px;
+    }
+
+    div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 10px solid rgb(153, 0, 255);
+        padding: 50px;
+        margin: 20px;
+      }
+
+    li{
+        padding: 120;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: left 20px;;
+    }
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About College</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header class="header">
+        <h1>About cousre-list</h1>
+    </header>
+
+    <main>
+        <section class="cousre-list">
+            <div class="course">
+                <h2>MCA</h2>
+                <p>It is one of the computer application.
+                    where we r going to learn different languages.
+                </p>
+            </div>
+            <div class="course">
+                <h2>MBA</h2>
+                <p>It is one of the bussiness application.
+                    where we r going to learn About finanace,market etc.
+                </p>
+            </div>
+            <div class="course">
+                <h2>Nursing</h2>
+                <p>It is one of the course which is related to medical field.</p>
+            </div>
+    </section>
+  </body>
+</html>* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+  }
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #181616;
+      color: #52158b;
+      line-height: 1.6;
+      background-color: #876ca3;
+      align-content: center;
+      grid-template-rows:auto;
+      -ms-layout-grid-char: 10px;
+  }
+  
+  
+  .cousre-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 20px;
+      flex-direction: row-reverse;
+  
+  }
+  
+  
+  .course {
+      background-color: rgb(143, 185, 214);
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 10px;
+      width: 300px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  .course h2 {
+      margin-bottom: 10px;
+      color: black;
+     
+  }
+<h1>assignment 9,10</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #24bea5;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #51427c;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #b15019;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #0099cc;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 20.25%;}
+.col-5 {width: 35.55%;}
+.col-6 {width: 45%;}
+.col-7 {width: 50.20%;}
+.col-8 {width: 55.55%;}
+.col-9 {width: 70%;}
+.col-10 {width: 70.20%;}
+.col-11 {width: 85.62%;}
+.col-12 {width: 80%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 80%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>India</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+    <li>The Flight</li>
+    <li>The City</li>
+    <li>The INDIA</li>
+    <li>The Food</li>
+    </ul>
+  </div>
+
+  <div class="col-6">
+    <h1>The City</h1>
+    <p> New Delhi is the capital of the India region.</p>
+  </div>
+
+  <div class="col-3 right">
+    <div class="aside">
+      <h2>What?</h2>
+      <p>New Delhi is a city on the India.</p>
+      <h2>Where?</h2>
+      <p>India is a surronded by the bay of Bengal in the East,the Arabiam Sea in the west and the indian occen to the south .</p>
+      <h2>How?</h2>
+      <p>You can reach India airport from all over Europe.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Resize the browser window to see how the content respond to the resizing.</p>
+</div>
+
+
+<h2>assignmnet 11,12</h2>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+
+
+<p>Try to <b>scroll</b> inside this frame to understand how sticky positioning works.</p>
+
+<div class="sticky">I am sticky!</div>
+
+<div style="padding-bottom:2000px">
+  <p>In this example, the sticky element sticks to the top of the page (top: 0), when you reach its scroll position.</p>
+  <p>Scroll back up to remove the stickyness.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+</div>
+</body>
+</html>
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+  .header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+  
+  .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }<!DOCTYPE html>
+<h1>Assignment 13,14</h1>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  background: rgb(113, 108, 156);
+  transition: width 2s linear 1s;
+}
+
+div:hover {
+  width: 300px;
+}
+</style>
+</head>
+<body>
+
+<h1>Using The transition Shorthand Property</h1>
+
+<p>Hover over the div element below, to see the transition effect:</p>
+
+<div></div>
+
+<p><b>Note:</b> The transition effect has a 1 second delay before starting.</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<h1>Assignment15,16</h1>
+<html>
+<head>
+<style> 
+div.a {
+  width: 150px;
+  height: 80px;
+  background-color: rgb(80, 155, 105);
+  transform: rotate(20deg);
+}
+
+div.b {
+  width: 150px;
+  height: 80px;
+  background-color: rgb(77, 150, 99);
+  transform: skewY(20deg);
+}
+
+div.c {
+  width: 150px;
+  height: 80px;
+  background-color: rgb(65, 150, 86);
+  transform: scaleY(1.5);
+}
+</style>
+</head>
+<body>
+
+<h1>The transform Property</h1>
+
+<h2>transform: rotate(20deg):</h2>
+<div class="a">Hello World!</div>
+<br>
+
+<h2>transform: skewY(20deg):</h2>
+<div class="b">Hello World!</div>
+<br>
+
+<h2>transform: scaleY(1.5):</h2>
+<div class="c">Hello World!</div>
+
+</body>
+</html><!DOCTYPE html> 
+<html> 
+<head> 
+    <style> 
+        input{ 
+            width:10%; 
+            padding: 12px; 
+        } 
+        
+        body{ 
+            background-color:rgb(37, 98, 179); 
+        } 
+    </style> 
+</head> 
+
+<body> 
+    <center> 
+        <form> 
+            <b>Do you find Geeksforgeeks helpful?</b><br> 
+            <input type="text" name="info"><br> 
+        </form> 
+    </center> 
+</body> 
+</html><!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #25c26c;
+}
+
+h2 {
+  border-bottom: 2px solid #1e90ff;
+}
+
+.container {
+  color: #2bc2ba;
+  background-color: #4635dd;
+  padding: 15px;
+}
+
+button {
+  background-color: #ffffff;
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h1>The Traditional Way</h1>
+
+<div class="container">
+  <h2>Lorem Ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+  <p>
+    <button>Yes</button>
+    <button>No</button>
+  </p>
+</div>
+
+</body>
+</html>
+
+
